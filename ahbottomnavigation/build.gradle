@@ -1,19 +1,17 @@
 apply plugin: 'com.android.library'
-apply plugin: 'com.github.dcendents.android-maven'
-group = 'com.github.manbuxingkong'
+//apply plugin: 'com.github.dcendents.android-maven'
+//group = 'com.github.manbuxingkong'
 
 android {
     compileSdkVersion 31
     defaultConfig {
         minSdkVersion 21
         targetSdkVersion 31
-        versionCode 46
-        versionName "2.3.4"
     }
     // 支持 Java JDK 8
     compileOptions {
-        targetCompatibility JavaVersion.VERSION_1_8
-        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_11
+        sourceCompatibility JavaVersion.VERSION_11
     }
 }
 
